@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+
+body{
+    font-size:16px;
+    background-color: rgb(32, 190, 156);
+    color:#ffffff;
+    font-family: 'Roboto Slab', serif;
+}
+
+/** HEADER **/
+#header-nav{
+    background-color: rgb(17, 63, 70);
+    border-radius:0;
+    border:0;
+    width: 100%;
+}
+
+
+.navbar-brand h1{
+    font-family: 'Roboto Slab', 'serif';
+    color:#ffffff;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#nav-list{
+    margin:10px;
+}
+
+#nav-list a{
+    color:#ffffff;
+    text-shadow: 1px 1px 1px #333;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#nav-list a:hover{
+    cursor: pointer;
+    background-color:rgb(32, 190, 156);
+}
+
+#phone{
+    margin-top: 5px;
+}
+
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{
+    color:#ffffff;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid rgb(137, 158, 161);
+}
+
+.navbar-header button.navbar-toggle{
+    clear:both;
+    margin-top:-20px;
+}
+
+.intro{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center;
+
+}
+
+
+.intro span h2{
+    line-height: 1.2em;
+    font-weight: bolder;
+    font-size:1.5em;
+    padding: 0;
+}
+
+
+.chicken{
+    background-color: rgb(17, 63, 70);
+    text-shadow: 1px 1px 1px #333;
+    margin: 0 auto;
+    width: 85%;
+    height:45%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.chicken span h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.back{
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 1.5px;
+    border: 1px solid white;
+    background-color: rgb(137, 158, 161);
+    border-radius: 2.5px;
+    color:#ffffff;
+}
+
+.beef{
+    background-color: rgb(17, 63, 70);
+    text-shadow: 1px 1px 1px #333;
+    margin: 15px auto;
+    width: 85%;
+    height: 45%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.beef span h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.sushi{
+    background-color:rgb(17, 63, 70);
+    text-shadow: 1px 1px 1px #333;
+    margin: 15px auto;
+    width: 85%;
+    height:60%;
+    padding: 20px;
+    border: 1px solid black;
+}
+.sushi span h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*other devices*
+@media (min-width: 120px){
+
+}
+
+/** medium devices**/
+@media (min-width: 992px) and (max-width:1199px){
+
+    .navbar-brand{
+        padding-top: 10px;
+        height: 8px;
+    }
+    
+       #nav-list a{
+        font-size: 1.2em;
+       }
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991px){
+
+
+.navbar-brand{
+    padding-top: 8px;
+    height: 5px;
+}
+
+   #nav-list a{
+    font-size: 1.2em;
+   }
+}
+
+
+/****extra small devices****/
+@media (max-width:767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 8px;
+    }
+
+    .navbar-brand h1{
+        padding-top: 8px;
+        font-size: 5vw;
+    }
+
+    .navbar-brand p{
+        font-size: 6em;
+        margin-top: 12px;
+    }
+
+    #collapsable-nav a span{
+        font-size: 0.5em;
+        margin: 0px auto;
+    
+    }
+   
+}
